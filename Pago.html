@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/money-removebg-preview2.png" type="png">
+    <link rel="stylesheet" href="Pago.css">
+    <title>Loteria Nacional</title>
+</head>
+<body>
+    
+    <section>
+        <div class="cont1">
+            <!--<div class="subcont2">
+                <div>
+                    <a href=""><img src="img/Paypal.png" alt="Paypal"></a>
+                </div>
+
+                <div>
+                    <a href=""><img src="img/master.jpg" alt="MasterCard"></a>
+                </div>
+
+                <div>
+                    <a href=""><img src="img/visa.jpg" alt="Visa"></a>
+                </div>
+            </div>-->
+
+            <script src="https://www.paypal.com/sdk/js?client-id=BAAN6HrMVsURR2eHN9cmFD4hkTOhrpEteJc0TnPgh4agufodRA_jKfh_ZN6XCzB1ZhxBM__EaS1bx2MX5o&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+                <div id="paypal-container-EWUUZCCDERVXJ"></div>
+            <script>
+                paypal.HostedButtons({
+                hostedButtonId: "EWUUZCCDERVXJ",
+                }).render("#paypal-container-EWUUZCCDERVXJ")
+            </script>
+        </div>
+    </section>
+</body>
+</html>
